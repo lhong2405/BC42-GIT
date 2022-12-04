@@ -1,7 +1,14 @@
 - git init: khởi tạo git cho một project ( chỉ cần dùng một lần)
+Cấu hình git cho user 
+- git config -- global user.name "your name "
+- git config -- global user.email " your email"
 - git add: Sắp xếp cái file đã bị thay đổi, thêm mới, hoặc xóa so với làm commit trước đó. để chuẩn bị cho lần commit tiếp theo
 + git add filename1 filename2 (thêm 1 hoặc nhiều file)
 
 + git add .: thêm toàn bộ tất cả file bị thay đổi
 - git commit: xác nhận và lưu trữ các file đã thay đổi ( git commit -m "messager commit")
 - git log : xem lại lịch sử commit
+
+- git status: xem trạng thái hiện tại của thư mục làm việc, nó sẽ hiển thị những files thay đổi so với lần commit trước đó, đồng thời hiển thị trạng thái của các file dó như là đã được xác nhận để commit hay chưa
+git push : đẩy tất cả commit lên trên remote repository ( repository là một dịch vụ)
+git clone: tải remote repository về máy tính
